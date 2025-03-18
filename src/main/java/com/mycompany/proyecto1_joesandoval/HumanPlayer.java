@@ -11,7 +11,7 @@ package com.mycompany.proyecto1_joesandoval;
 public class HumanPlayer extends Player {
 
     public HumanPlayer(){
-        
+        playerName = "Jugador 1";
     }
     @Override
     public void addVessel() {
@@ -19,8 +19,8 @@ public class HumanPlayer extends Player {
     }
 
     @Override
-    public void makeShot() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void makeShot(Coordinate coordinates) {
+        
     }
     
 }

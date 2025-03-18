@@ -11,7 +11,7 @@ package com.mycompany.proyecto1_joesandoval;
 public class BotPlayer extends Player {
 
     public BotPlayer(){
-        
+        playerName = "Computadora";
     }
     
     @Override
@@ -20,7 +20,7 @@ public class BotPlayer extends Player {
     }
 
     @Override
-    public void makeShot() {
+    public void makeShot(Coordinate coordinates) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     

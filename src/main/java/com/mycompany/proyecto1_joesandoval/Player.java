@@ -14,11 +14,12 @@ public abstract class Player {
     protected Board playerTwo;
     
     public Player(){
-        
+        playerOne = new Board();
+        playerTwo = new Board();
     }
     
     public abstract void addVessel();
-    public abstract void makeShot();
+    public abstract void makeShot(Coordinate coordinates);
     
     public void receiveShot(){
         

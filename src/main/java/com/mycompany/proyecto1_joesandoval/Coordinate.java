@@ -15,4 +15,11 @@ public class Coordinate {
     public Coordinate(){
         
     }
+    
+    public int getX(){
+        return this.X;
+    }
+    public int getY(){
+        return this.Y;
+    }
 }
